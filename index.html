@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dhruv's personal portfolio website built using only HTML, CSS, and JavaScript.">
+  <title>Dhruv | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+  <div class="scroll-meter" aria-hidden="true">
+    <span id="scrollMeter"></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand-mark" href="index.html" aria-label="Dhruv home page">
+      <span class="brand-dot"></span>
+      <span class="brand-copy">Dhruv</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#gallery">Gallery</a>
+      <a class="nav-cta" href="connect.html">Connect</a>
+    </nav>
+  </header>
+
+  <main class="site-shell">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Dhruv's digital world</p>
+        <h1>
+          Building
+          <span class="hero-shift">calm, confident interfaces</span>
+          while growing into full stack development.
+        </h1>
+        <p class="hero-text">
+          I am Dhruv, a B.Tech IT student at P P Savani University, and I genuinely enjoy the world of technology. I want to build my career in full stack development,
+          and right now I am focused on learning frontend development with intention. I am exploring design, layout,
+          animation, and user experience while preparing to move into backend development next.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#gallery">See My Visual Story</a>
+          <a class="button secondary" href="connect.html">Open Connect Page</a>
+        </div>
+
+        <div class="hero-points">
+          <article class="point-card">
+            <span class="point-label">Current focus</span>
+            <strong>HTML, CSS, JavaScript</strong>
+          </article>
+          <article class="point-card">
+            <span class="point-label">Mindset</span>
+            <strong class="dynamic-role" data-words="Frontend Learner,Future Full Stack Developer">Frontend Learner</strong>
+          </article>
+          <article class="point-card">
+            <span class="point-label">Direction</span>
+            <strong>Frontend strong, backend next</strong>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="tilt-shell" data-tilt>
+          <div class="photo-stage">
+            <div class="hero-card main-portrait">
+              <span class="card-badge">Featured Frame</span>
+              <img src="assets/images/dhruv-3.jpg" alt="Dhruv sitting by the lake while reading a book.">
+              <div class="card-caption">
+                <p>Main visual</p>
+                <strong>Quiet focus, strong ambition</strong>
+              </div>
+            </div>
+
+            <div class="orbit-card orbit-left">
+              <img src="assets/images/dhruv-1.jpg" alt="Dhruv standing beside the lake in a dark shirt and white trousers.">
+            </div>
+
+            <div class="orbit-card orbit-right">
+              <img src="assets/images/dhruv-2.jpg" alt="Dhruv standing in a lakeside pavilion with mountain views in the background.">
+            </div>
+
+            <div class="depth-ring" aria-hidden="true"></div>
+            <div class="floating-note">
+              Learning with patience.<br>
+              Building with style.<br>
+              Moving toward full stack confidence.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="belief-strip reveal" aria-label="Highlights">
+      <article>
+        <span>01</span>
+        <strong>Creative frontend taste</strong>
+        <p>I enjoy turning simple code into interfaces that feel memorable, polished, and alive.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <strong>Steady learning energy</strong>
+        <p>I believe in learning consistently, practicing deeply, and improving one project at a time.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <strong>Full stack future</strong>
+        <p>My goal is to combine the beauty of frontend with the power and logic of backend systems.</p>
+      </article>
+    </section>
+
+    <section class="section split-layout" id="about">
+      <div class="section-title reveal">
+        <p class="eyebrow">About me</p>
+        <h2>Quiet ambition, clean thinking, and a real love for technology.</h2>
+      </div>
+
+      <article class="glass-panel reveal">
+        <p>
+          Websites have always made me curious about how beautiful digital experiences are created.
+          That curiosity slowly turned into a real interest in coding, and now I am using this portfolio
+          as a way to build my identity on the web.
+        </p>
+        <p>
+          I enjoy frontend development because it brings together structure, color, spacing, motion, and storytelling.
+          At the same time, I understand that becoming a strong developer also means learning backend logic,
+          data flow, and how real products work behind the scenes.
+        </p>
+        <p>
+          My approach is simple: stay calm, keep practicing, and grow through every project.
+          I want to become the kind of developer who can design, build, and deliver complete digital experiences.
+        </p>
+      </article>
+
+      <aside class="arch-panel reveal">
+        <div class="arch-window tilt-shell" data-tilt>
+          <img src="assets/images/dhruv-3.jpg" alt="Dhruv reading calmly by the lake inside an arched window frame.">
+        </div>
+        <div class="arch-copy">
+          <p class="eyebrow">Personal note</p>
+          <h3>I like creating things that feel peaceful, premium, and purposeful.</h3>
+          <p>That exact feeling is what I wanted this portfolio to capture from the very first screen.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="section-title reveal">
+        <p class="eyebrow">My journey</p>
+        <h2>Where I am now, what I am learning, and what I am aiming for next.</h2>
+      </div>
+
+      <div class="journey-grid">
+        <article class="journey-card reveal">
+          <span class="journey-number">01</span>
+          <h3>Why IT excites me</h3>
+          <p>Technology brings creativity and logic together, which is why this field feels like the right path for me.</p>
+        </article>
+
+        <article class="journey-card reveal">
+          <span class="journey-number">02</span>
+          <h3>Frontend right now</h3>
+          <p>I am currently focusing on responsive design, visual hierarchy, animation, and writing cleaner code.</p>
+        </article>
+
+        <article class="journey-card reveal">
+          <span class="journey-number">03</span>
+          <h3>Backend next</h3>
+          <p>Backend is the next step for me because I want to build stronger product thinking from end to end.</p>
+        </article>
+
+        <article class="journey-card reveal">
+          <span class="journey-number">04</span>
+          <h3>Long-term vision</h3>
+          <p>I want to become a developer who can work confidently from design to development to deployment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skill-section">
+      <div class="section-title reveal">
+        <p class="eyebrow">Skill direction</p>
+        <h2>I am building a strong foundation now so I can grow into a complete developer later.</h2>
+      </div>
+
+      <div class="skill-layout">
+        <article class="skill-story reveal">
+          <h3>What I am sharpening</h3>
+          <p>
+            What attracts me most in frontend is the balance between layout, color, motion, and user-first thinking.
+            I do not want code to only function well. I want it to feel right too, which is why I care about polish in the interface.
+          </p>
+          <p>
+            At the same time, I am preparing myself to learn backend development seriously, because my long-term goal
+            is to build complete solutions, not just beautiful pages but real systems.
+          </p>
+        </article>
+
+        <div class="skill-bars reveal">
+          <div class="skill-row">
+            <div class="skill-meta">
+              <strong>HTML structure</strong>
+              <span>Clean semantic layout</span>
+            </div>
+            <div class="skill-track"><span style="--fill: 90%;"></span></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <strong>CSS styling</strong>
+              <span>Visual identity and polish</span>
+            </div>
+            <div class="skill-track"><span style="--fill: 83%;"></span></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <strong>JavaScript</strong>
+              <span>Interaction and page logic</span>
+            </div>
+            <div class="skill-track"><span style="--fill: 80%;"></span></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-meta">
+              <strong>Backend preparation</strong>
+              <span>The next serious step</span>
+            </div>
+            <div class="skill-track"><span style="--fill: 25%;"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-title reveal">
+        <p class="eyebrow">Photo showcase</p>
+        <h2>These photos are not just displayed here. They are presented as a layered visual story with depth.</h2>
+      </div>
+
+      <div class="gallery-layout">
+        <article class="gallery-card gallery-feature reveal tilt-shell" data-tilt>
+          <img src="assets/images/dhruv-3.jpg" alt="Dhruv reading by the water in an elegant window frame.">
+          <div class="gallery-copy">
+            <p>Lead visual</p>
+            <h3>Quiet focus, strong ambition</h3>
+            <span>The framing, calm expression, and lakeside setting made it the strongest image to feature first.</span>
+          </div>
+        </article>
+
+        <div class="gallery-stack">
+          <article class="gallery-card reveal tilt-shell" data-tilt>
+            <img src="assets/images/dhruv-1.jpg" alt="Dhruv looking down while standing beside a lake and scenic background.">
+            <div class="gallery-copy">
+              <p>Side frame</p>
+              <h3>Open-air lakeside mood</h3>
+            </div>
+          </article>
+
+          <article class="gallery-card reveal tilt-shell" data-tilt>
+            <img src="assets/images/dhruv-2.jpg" alt="Dhruv standing in a pavilion by a lake with mountains behind him.">
+            <div class="gallery-copy">
+              <p>Architectural frame</p>
+              <h3>Depth, light and structure</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section closing-banner reveal">
+      <p class="eyebrow">Next step</p>
+      <h2>I am learning more than code. I am learning how to shape experiences people remember.</h2>
+      <p>
+        This portfolio is my starting point. From here, I want to go deeper into frontend, learn backend with focus,
+        and start building stronger real-world projects.
+      </p>
+      <a class="button primary" href="connect.html">Go To Connect Page</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Crafted for Dhruv with only HTML, CSS and JavaScript.</p>
+    <p>&copy; <span data-year></span> Dhruv. Learning in public, building with intent.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

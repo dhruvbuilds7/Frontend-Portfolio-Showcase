@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Connect with Dhruv through GitHub, LinkedIn, and a direct message page.">
+  <title>Dhruv | Connect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-connect">
+  <div class="scroll-meter" aria-hidden="true">
+    <span id="scrollMeter"></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand-mark" href="index.html" aria-label="Dhruv home page">
+      <span class="brand-dot"></span>
+      <span class="brand-copy">Dhruv</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#journey">Journey</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a class="nav-cta" href="connect.html">Connect</a>
+    </nav>
+  </header>
+
+  <main class="site-shell">
+    <section class="contact-hero">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Let's connect</p>
+        <h1>One page for my profiles, my contact path, and my next opportunities.</h1>
+        <p class="hero-text">
+          This page is designed as a dedicated place for my GitHub, LinkedIn, and direct contact details,
+          so anyone can explore my online presence and reach out with ease.
+        </p>
+
+        <div class="connect-cards">
+          <article class="social-card reveal">
+            <div>
+              <p>GitHub</p>
+              <h3>Code, projects, and progress</h3>
+              <span>Github profile.</span>
+            </div>
+            <a class="button secondary" href="https://github.com/dhruvbuilds7?tab=overview&from=2026-04-01&to=2026-04-13" target="_blank" rel="noreferrer">Open GitHub</a>
+          </article>
+
+          <article class="social-card reveal">
+            <div>
+              <p>LinkedIn</p>
+              <h3>Professional identity and network</h3>
+              <span>LinkedIn profile.</span>
+            </div>
+            <a class="button secondary" href="https://www.linkedin.com/in/dhruv-patel-aa9713402/" target="_blank" rel="noreferrer">Open LinkedIn</a>
+          </article>
+
+          <article class="social-card reveal">
+            <div>
+              <p>Email</p>
+              <h3>Direct conversation</h3>
+              <span>Write a message in the form below and JavaScript will prepare the email draft for you.</span>
+            </div>
+            <a class="button secondary" href="mailto:dhruv7patel78@gmail.com">Quick Email</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="contact-visual reveal">
+        <div class="connect-portrait tilt-shell" data-tilt>
+          <img src="assets/images/dhruv-3.jpg" alt="Dhruv reading peacefully beside the lake.">
+          <div class="connect-overlay">
+            <p>Main profile frame</p>
+            <strong>Calm presence. Clear ambition.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section connect-grid">
+      <article class="form-panel reveal">
+        <p class="eyebrow">Send a note</p>
+        <h2>HTML/CSS/JS only contact flow</h2>
+        <p>
+          This site does not use a backend.
+        </p>
+
+        <form id="contactForm" class="contact-form">
+          <label>
+            Your name
+            <input type="text" name="name" placeholder="Enter your name" required>
+          </label>
+
+          <label>
+            Your email
+            <input type="email" name="email" placeholder="Enter your email" required>
+          </label>
+
+          <label>
+            Subject
+            <input type="text" name="subject" placeholder="Reason for contacting Dhruv" required>
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
+          </label>
+
+          <button class="button primary" type="submit">Create Email Draft</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </article>
+
+      <aside class="connect-note reveal">
+        <p class="eyebrow">Why this page matters</p>
+        <h3>Good work deserves a clean way to be discovered.</h3>
+        <p>
+          That is why this connect page exists as a separate destination, keeping social presence, contact details,
+          and personal branding together in one clean, premium space.
+        </p>
+        <ul class="note-list">
+          <li>The GitHub section is ready for future projects and code showcases</li>
+          <li>The LinkedIn section supports your professional identity and network</li>
+          <li>The direct message flow works with a simple JavaScript-powered email draft</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Connect page built as a separate destination for Dhruv's network and contact flow.</p>
+    <p>&copy; <span data-year></span> Dhruv. Ready for future opportunities.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
